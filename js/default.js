@@ -6,11 +6,11 @@ var message;
 if(answer === number){
  message = 'あたり！';
 }else if (answer < number){
- messeage = '残念！もっと大きいです';
+ message = '残念！もっと大きいです';
 }else if (number < answer){
- messeage = '残念！もっと小さいです';
+ message = '残念！もっと小さいです';
 }else{
- messeage = '0～3の数字を入力してください';
+ message = '0～3の数字を入力してください';
 } 
 
-document.getElementById('choice').textContent = messeage;
+document.getElementById('choice').textContent = message;
